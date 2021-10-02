@@ -20,7 +20,7 @@ public class HomeFlower extends AppCompatActivity {
                 startActivity(new Intent(HomeFlower.this,
                         ListFlower.class));
 
-                overridePendingTransition(R.anim.golistflower, R.anim.exit_x);
+                overridePendingTransition(R.anim.enter_x, R.anim.exit_x);
 
             }
         });

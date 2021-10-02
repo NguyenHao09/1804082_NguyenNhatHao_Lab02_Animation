@@ -9,10 +9,12 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Lab02_Animation">
-        <activity android:name=".Lavender"></activity>
+        <activity android:name=".HomeFlower"></activity>
+        <activity android:name=".Lavender" />
         <activity android:name=".MainActivity" />
         <activity android:name=".ListFlower" />
-        <activity android:name=".HomeFlower">
+        <activity android:name=".MusicMotion" />
+        <activity android:name=".HomeMusic">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

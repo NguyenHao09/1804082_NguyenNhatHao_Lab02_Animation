@@ -8,8 +8,8 @@
     tools:context=".Lavender">
 
     <ImageView
-
-        android:id="@+id/Lavender"
+        android:transitionName="flower"
+        android:id="@+id/imgFl"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         app:layout_constraintEnd_toEndOf="parent"
@@ -29,7 +29,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.512"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/Lavender" />
+        app:layout_constraintTop_toBottomOf="@+id/imgFl" />
 
     <Button
         android:id="@+id/btBack"
